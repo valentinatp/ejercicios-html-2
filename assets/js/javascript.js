@@ -231,5 +231,5 @@ var nombre = [
   }
 ];
 nombre.forEach(function(elemento){
-  document.write(elemento.name + "<br>" + elemento.address.street + "<br>" + elemento.address.suite + "<br>" + elemento.address.city + "<br>" + elemento.address.zipcode + "<br>" + "<br>")
+  document.write("<b> Nombre</b>: " + elemento.name + "<br>" + "<b>Calle</b>: " + elemento.address.street + "<br>" + "<b>Número depto</b>: " + elemento.address.suite + "<br>" + "<b>Ciudad</b>: " + elemento.address.city + "<br>" + "<b>Código postal</b>: " + elemento.address.zipcode + "<br>" + "<br>")
 });
